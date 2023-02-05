@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.container:hover{
+  background-color: rgb(57, 65, 56);
+}
+
+
+
+.logo{
+   
+    margin: 30px;
+    cursor: pointer;
+    
+}
+
+header{
+    
+    width: 95%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    float:right
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 28px;
+    color: rgb(230, 221, 221);
+    text-decoration:none
+  }
+
+  nav ul li:hover {
+    background: #0faf65;
+  }
+
+  img {
+    text-align: center;
+    margin-left: 250px;
+  
+    }
+
+   footer{
+    color: white;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: black;
+    padding: 18px;
+  
+}
+
+
+
+  
+
+
+/** 
+Hola Profe, aprovecho este lugar para decirle que es la primera vez que desarrollo una HTML, y que probé las 
+dos formas de estilo, en el mismo html y aparte en hojas de estilo de css.
+*/
